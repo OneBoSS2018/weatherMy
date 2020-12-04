@@ -5,7 +5,7 @@ export const Heading = styled.h1`
  text-align: center;
  font-size: 3rem;
  color: white;
- 
+ margin-bottom: 20px;
 `
 
 export const DataBuilder = styled.div`
@@ -27,7 +27,7 @@ export const Inputer = styled.input`
   
   background-color: rgba(255,255,255,0.5);
   border-radius: 16px 16px 16px 16px;
-  margin-bottom: -65px;
+  margin-bottom: -55px;
 `
 
 export const MainContainer = styled.div`
@@ -83,13 +83,5 @@ export const EmptyIMG = styled.img`
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 80px;
-`
-export const EmptyP = styled.p`
- color: white;
- font-size: 1rem;
- font-family: "Roboto Light";
- text-align: center;
- margin-top: 15px;
- 
+  width: 100px;
 `

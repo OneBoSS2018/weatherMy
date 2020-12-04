@@ -10,7 +10,6 @@ import {Heading,
         Description,
         Searc,
         Empty,
-        EmptyP,
         EmptyIMG
 } from "./mainElements";
 import images from '../../assets/robot.png'
@@ -77,7 +76,7 @@ function Main() {
             <Heading>Weather app</Heading>
             <Searc>
                 <Inputer type='text'
-                         plaseholder='Enter...'
+                         placeholder='Enter sity to check weather...'
                          onChange={e => setQuery(e.target.value)}
                          value={query}
                          onKeyPress={search}/>
@@ -97,7 +96,6 @@ function Main() {
                 ) :
                 (<Empty>
                     <EmptyIMG src={images} alt={"images"}/>
-                    <EmptyP>Enter sity to check weather.</EmptyP>
                 </Empty>)}
 
         </MainContainer>
